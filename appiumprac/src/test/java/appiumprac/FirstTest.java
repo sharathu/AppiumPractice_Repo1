@@ -49,7 +49,7 @@ public class FirstTest {
 		three.click();
 		two.click();
 		System.out.println(result.getText());		
-		if(Integer.parseInt(result.getText())==55)
+		if(Integer.parseInt(result.getText())==56)
 			System.out.println("Result is correctly displayed");
 		else
 			System.out.println("Wrong result");
